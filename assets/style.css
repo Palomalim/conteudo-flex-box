@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family:  Quicksand, sans-serif;
+    background-color: #F3F0EB;
+    background-color: #073040;
+    
+}
+
+h1 {
+    font-size: 50px;
+    margin: 30px;
+    font-weight: 700;
+    color: #F3F0EB  ; 
+}
+
+.flex-direction {
+    display: flex;
+    border: 3px #D95525  solid;
+    border-radius: 5px 30px 5px 5px;
+    width: 900px;
+    height: 1500px;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+.title { 
+    font-size: 30px;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #FF7645;
+    border-radius: 3px 20px 3px 3px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.subtitle {
+    font-size:25px;
+    font-weight: 700;
+    font-style: normal;
+    color: whitesmoke;
+    text-align: start;
+    margin-top: 40px;
+    padding-left:50px;
+    /* border: solid 3px white; */
+
+}
+.direction-row  {
+    display: flex;
+    border:  solid 3px #FF7645;
+    flex-direction: row;
+    margin:0 50px  50px 50px;
+    color: #F3F0EB;
+    border-radius: 5px;
+    font-family: Quicksand, sans serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    flex-wrap: wrap;
+   
+}
+
+.borderrow {
+    background-color: #FF7645;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.secundario {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.nome-propriedade {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Quicksand, sans serif;
+    font-style: normal;
+    color: whitesmoke;
+    padding-left: 50px;
+    
+}
+.post-secundario {
+    padding-left:  70px;
+    margin-top: 0;;
+}
+
+.start {
+    justify-content: flex-start;
+}
+.end {
+    justify-content: flex-end;
+}
+.center {
+    justify-content: center;
+}
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+.direction-column  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #FF7645 solid 3px;
+    margin: 0 50px 50px 50px;
+    color: #F3F0EB;
+    border-radius: 5px;
+    font-family: Quicksand, sans serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.border {
+    background-color: #FF7645;
+    border-radius: 5px;
+    padding: 5px; 
+    margin: 10px;
+
+}
